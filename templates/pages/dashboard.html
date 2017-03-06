@@ -1,0 +1,38 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+
+    <div class="container">
+        	
+
+
+
+          <h2 class="sub-header">All Tasks</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Job Title</th>
+                  <th>Query</th>
+                  <th>Destination</th>
+                  <th>Frequency</th>
+                </tr>
+              </thead>
+              <tbody>
+              	{% for val in inject_jobs %}
+    		    <tr>
+                  <td>{{ val.title }}</td>
+                  <td>{{ val.database }}</td>
+                  <td>{{ val.spreadsheet }}</td>
+                  <td>{{ val.schedule }}</td>
+                </tr>
+				{% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+
+{% endblock %}

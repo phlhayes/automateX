@@ -1,0 +1,95 @@
+<form>
+
+<fieldset class="form-group row">
+      <h3>Job</h3>
+  </fieldset>
+      <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Title</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="inputEmail3" placeholder="Title">
+      </div>
+    </div>
+	<fieldset class="form-group row">
+      <h3>Database</h3>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            Vertica
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            BigQuery
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            MySQL
+          </label>
+        </div>
+      </div>
+    </fieldset>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Host</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="inputEmail3" placeholder="Host">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Username</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="inputPassword3" placeholder="Username">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      </div>
+    </div>  
+<button type="submit" class="btn btn-secondary">Test Connection</button> 
+
+<fieldset class="form-group row">
+      <h3>Spreadsheet</h3>
+    </fieldset>
+<div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Spreadsheet</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="inputPassword3" placeholder="Spreadsheet Name">
+      </div>
+    </div>
+<div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Sheet</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="inputPassword3" placeholder="Sheet Name">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-secondary">Test Connection</button>
+<fieldset class="form-group row">
+      <h3>Query</h3>
+    </fieldset>
+        <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Query</label>
+      <div class="col-sm-10">
+        <textarea class="form-control" id="inputPassword3" placeholder="SELECT column FROM table"></textarea>
+      </div>
+    </div>   
+
+<fieldset class="form-group row">
+      <h3>Schedule</h3>
+    </fieldset>
+        <div class="form-group row">
+      <div class="col-sm-10">
+        <input class="form-control" id="inputPassword3" placeholder="* * * * 30">
+      </div>
+    </div>   
+
+    <div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </form>
