@@ -1,4 +1,3 @@
-import apiclient
 import gspread
 import vertica_python
 import pymysql
