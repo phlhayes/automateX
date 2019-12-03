@@ -1,7 +1,7 @@
 apiclient==1.0.3
 appdirs==1.4.2
 coverage==3.7.1
-ecdsa==0.10
+ecdsa==0.13.3
 Fabric==1.8.2
 Flask==0.10.1
 Flask-SQLAlchemy==1.0
